@@ -6,7 +6,7 @@ def getHTMLText(url):
         r = requests.get(url, timeout=30)
         r.raise_for_status()  #如果发送了一个失败请求(非200响应),#我们可以通过 Response.raise_for_status() 来抛出异常:
         r.encoding= r.apparent_encoding
-        print(r.text)
+        #print(r.text)
         return r.text
     except:
         return ""
