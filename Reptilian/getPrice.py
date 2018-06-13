@@ -41,7 +41,8 @@ def getPrice(url):
 # print(res.apparent_encoding)#自动获取编码
 
 # chromedriver = "C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe"
-# browser = webdriver.Chrome()
+browser = webdriver.Chrome()
+webdriver.PhantomJS
 # browser.maximize_window()
 # browser.get('https://detail.tmall.com/item.htm?id=40348345632&ali_refid=a3_430583_1006:1109725094:'
 #             'N:%E7%82%8A%E5%A4%A7%E7%9A%87%20%E5%A5%B6%E9%94%85:318333211bd1ce718705998f72171618&al'
